@@ -86,7 +86,7 @@
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>TootleStatic_2015_DX11_1_MTDLL_d64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>TootleStatic_2019_DX11_1_MTDLL_d64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
@@ -96,7 +96,7 @@
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>TootleStatic_2015_DX11_1_MTDLL_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>TootleStatic_2019_DX11_1_MTDLL_64.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
   </ItemDefinitionGroup>

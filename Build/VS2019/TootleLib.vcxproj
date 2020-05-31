@@ -23,6 +23,7 @@
     <ProjectGuid>{F211DAFB-4BD4-4E13-B4FD-9D431D84F4C8}</ProjectGuid>
     <RootNamespace>TootleLib</RootNamespace>
     <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Label="Configuration">
@@ -47,8 +48,8 @@
   <PropertyGroup>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_Static_MTDLL|Win32'">TootleStatic_2015_DX11_1_MTDLL_d</TargetName>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_Static_MTDLL|Win32'">TootleStatic_2015_DX11_1_MTDLL</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_Static_MTDLL|x64'">TootleStatic_2015_DX11_1_MTDLL_d64</TargetName>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_Static_MTDLL|x64'">TootleStatic_2015_DX11_1_MTDLL_64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_Static_MTDLL|x64'">TootleStatic_2019_DX11_1_MTDLL_d64</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_Static_MTDLL|x64'">TootleStatic_2019_DX11_1_MTDLL_64</TargetName>
     <IntDir>obj\$(ProjectName)\$(Configuration)-$(Platform)\</IntDir>
   </PropertyGroup>
   <ItemDefinitionGroup>

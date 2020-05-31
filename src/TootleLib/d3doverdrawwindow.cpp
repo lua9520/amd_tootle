@@ -88,7 +88,7 @@ SetupWorld(void)
 {
 #ifdef _DX11_1_
     using namespace DirectX;
-    DirectX::XMMATRIX T, R, S;
+    DirectX::XMMATRIX T, S;
     // make world matrix
     // start with identity
     m_mWorld = XMMatrixIdentity();
